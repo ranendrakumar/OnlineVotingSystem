@@ -11,7 +11,7 @@ export default function Candidate({ id, name, voteCount }) {
     "https://images.unsplash.com/photo-1511367461989-f85a21fda167?auto=format&fit=crop&w=1400";
 
   return (
-    <Card sx={{ maxWidth: 245, minWidth: 200 }}>
+    <Card sx={{ maxWidth: 245, minWidth: 200,backgroundColor:"#B2E0DF" }}>
       <CardHeader
         title={
           <Typography align="center" variant="subtitle1">

@@ -34,8 +34,8 @@ contract Election {
     constructor() {
         owner = msg.sender;
         electionState = State.NotStarted;
-        addCandidate("Candidate 1");
-        addCandidate("Candidate 2");
+        addCandidate("JSP");
+        
     }
 
     event Voted(uint256 indexed _candidateId);

@@ -61,13 +61,13 @@ const Navbar = () => {
               textDecoration: "none",
             }}
           >
-            Voting System
+            Online Voting System
           </Typography>
 
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Logout">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Logout" src="logo192.png"/>
+                <Avatar alt="Logout" src="power64.png"/>
               </IconButton>
             </Tooltip>
             <Menu
